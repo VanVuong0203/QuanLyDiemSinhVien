@@ -11,8 +11,8 @@ using QuanLiDiem.Data;
 namespace QuanLiDiem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241114190112_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241208052241_creatable")]
+    partial class creatable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,43 +30,33 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CanCuocCongDan")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DiaChi")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GioiTinh")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoTen")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MaNganh")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MatKhau")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SoDienThoai")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TenTaiKhoan")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("VaiTro")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("MSSV");
@@ -82,36 +72,36 @@ namespace QuanLiDiem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
+                    b.Property<string>("CCCD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CitizenId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Classification")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("GPA1")
+                    b.Property<decimal>("DTB1")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("GPA2")
+                    b.Property<decimal>("DTB2")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("GPA3")
+                    b.Property<decimal>("DTB3")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Major")
+                    b.Property<string>("DiaChi")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NganhHoc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SDT")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("XepLoai")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
