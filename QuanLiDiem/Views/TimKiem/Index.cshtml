@@ -1,0 +1,73 @@
+﻿@model IEnumerable<QuanLiDiem.Models.DanhSachSinhVien>
+
+@{
+    ViewData["Title"] = "Danh sách sinh viên";
+}
+
+<h1>Danh sách sinh viên</h1>
+
+<div class="row mb-3">
+    <div class="col-md-8">
+        <form asp-action="Index" method="get">
+            <label>Tìm kiếm sinh viên</label>
+            <div class="input-group">
+                <!-- Ô tìm kiếm MSSV hoặc Họ tên -->
+                <input type="text" name="searchTerm" class="form-control" placeholder="Tìm kiếm theo MSSV hoặc Họ tên..." value="@ViewData["SearchTerm"]" />
+                <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+            </div>
+            <br>
+            <label>Thống kê sinh viên</label>
+            <div class="input-group">
+                <!-- Ô tìm kiếm Mã ngành -->
+                <select name="maNganh" class="form-select">
+                    <option value="">Chọn mã ngành</option>
+                    <option value="1">Công nghệ thông tin</option>
+                    <option value="2">Kinh tế</option>
+                    <option value="3">Cơ khí</option>
+                    <!-- Thêm mã ngành khác nếu cần -->
+                </select>
+                <button class="btn btn-primary" type="submit">Thống kê</button>
+            </div>
+        </form>
+        @if (ViewData["Message"] != null)
+        {
+            <div class="alert alert-info">
+                @ViewData["Message"]
+            </div>
+        }
+    </div>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.MSSV)</th>
+            <th>@Html.DisplayNameFor(model => model.HoTen)</th>
+            <th>@Html.DisplayNameFor(model => model.SoDienThoai)</th>
+            <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
+            <th>@Html.DisplayNameFor(model => model.Email)</th>
+            <th>@Html.DisplayNameFor(model => model.MaNganh)</th>
+            <th>@Html.DisplayNameFor(model => model.VaiTro)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.MSSV)</td>
+                <td>@Html.DisplayFor(modelItem => item.HoTen)</td>
+                <td>@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
+                <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.MaNganh)</td>
+                <td>@Html.DisplayFor(modelItem => item.VaiTro)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-MSSV="@item.MSSV" class="btn btn-primary">Chỉnh sửa</a>
+                    <a asp-action="Details" asp-route-MSSV="@item.MSSV" class="btn btn-info">Chi tiết</a>
+                    <a asp-action="Delete" asp-route-MSSV="@item.MSSV" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

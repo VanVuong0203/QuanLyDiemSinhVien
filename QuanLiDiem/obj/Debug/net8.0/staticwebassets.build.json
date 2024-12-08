@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Os96P3wwGwIhA9heNkVgOnZtXDKoOCzWgQd0NKtqFvk=",
+  "Hash": "K7y7zN4/XA8T0umWgU81R4u4ohCx3VIfdliQ5pJ4KZI=",
   "Source": "QuanLiDiem",
   "BasePath": "_content/QuanLiDiem",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\styles.css",
+      "SourceId": "QuanLiDiem",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\",
+      "BasePath": "_content/QuanLiDiem",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\favicon.ico",
