@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\CapNhatTT_Demo.props" />
+</Project>
