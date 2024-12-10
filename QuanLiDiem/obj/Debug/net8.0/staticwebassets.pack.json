@@ -5,12 +5,16 @@
       "PackagePath": "staticwebassets\\QuanLiDiem.bundle.scp.css"
     },
     {
-      "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\capnhattt.css",
+      "PackagePath": "staticwebassets\\css\\capnhattt.css"
     },
     {
-      "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\styles.css",
-      "PackagePath": "staticwebassets\\css\\styles.css"
+      "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\searchCss.css",
+      "PackagePath": "staticwebassets\\css\\searchCss.css"
+    },
+    {
+      "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\favicon.ico",

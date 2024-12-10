@@ -4,70 +4,89 @@
     ViewData["Title"] = "Danh sách sinh viên";
 }
 
-<h1>Danh sách sinh viên</h1>
+<link href="~/css/searchCss.css" rel="stylesheet" />
 
-<div class="row mb-3">
-    <div class="col-md-8">
-        <form asp-action="Index" method="get">
-            <label>Tìm kiếm sinh viên</label>
-            <div class="input-group">
-                <!-- Ô tìm kiếm MSSV hoặc Họ tên -->
-                <input type="text" name="searchTerm" class="form-control" placeholder="Tìm kiếm theo MSSV hoặc Họ tên..." value="@ViewData["SearchTerm"]" />
-                <button class="btn btn-primary" type="submit">Tìm kiếm</button>
+<!-- Tiêu đề trang -->
+
+
+<div class="search-form-container">
+    
+    <!-- Form tìm kiếm -->
+    <form asp-action="Index" method="get" class="form">
+        <h2 class="text-center">Danh sách sinh viên</h2>
+        <hr />
+        <div class="form-group d-flex align-items-center">
+            <!-- Form tìm kiếm sinh viên -->
+            <div class="input-group" style="margin-right: 20px;">
+                <input type="text" name="searchTerm" id="searchTerm" class="form-control"
+                       placeholder="Tìm kiếm theo MSSV hoặc Họ tên..." value="@ViewData["SearchTerm"]" style="height: 45px; border-radius: 10px" />
+                <button type="submit" style="margin-left: 10px; border: none; border-radius: 10px; padding: 5px 10px; background-color: antiquewhite">
+                    Tìm kiếm
+                </button>
             </div>
-            <br>
-            <label>Thống kê sinh viên</label>
+
+            <!-- Form thống kê theo mã ngành -->
             <div class="input-group">
-                <!-- Ô tìm kiếm Mã ngành -->
-                <select name="maNganh" class="form-select">
+                <select name="maNganh" id="maNganh" class="form-select" style="margin-right: 10px; height: 45px; border-radius: 10px">
                     <option value="">Chọn mã ngành</option>
                     <option value="1">Công nghệ thông tin</option>
                     <option value="2">Kinh tế</option>
                     <option value="3">Cơ khí</option>
-                    <!-- Thêm mã ngành khác nếu cần -->
                 </select>
-                <button class="btn btn-primary" type="submit">Thống kê</button>
+                <button type="submit" style="border: none; border-radius: 10px; padding: 5px 10px; background-color: antiquewhite">
+                    Thống kê
+                </button>
             </div>
-        </form>
+        </div>
+        <!-- Thông báo -->
         @if (ViewData["Message"] != null)
         {
-            <div class="alert alert-info">
-                @ViewData["Message"]
+            <div class="container mt-3">
+                <div class="alert alert-info">
+                    @ViewData["Message"]
+                </div>
             </div>
         }
-    </div>
-</div>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>@Html.DisplayNameFor(model => model.MSSV)</th>
-            <th>@Html.DisplayNameFor(model => model.HoTen)</th>
-            <th>@Html.DisplayNameFor(model => model.SoDienThoai)</th>
-            <th>@Html.DisplayNameFor(model => model.DiaChi)</th>
-            <th>@Html.DisplayNameFor(model => model.Email)</th>
-            <th>@Html.DisplayNameFor(model => model.MaNganh)</th>
-            <th>@Html.DisplayNameFor(model => model.VaiTro)</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
+    <!-- Bảng hiển thị danh sách sinh viên -->
+    <table class="table table-bordered table-hover mt-3">
+        <thead>
             <tr>
-                <td>@Html.DisplayFor(modelItem => item.MSSV)</td>
-                <td>@Html.DisplayFor(modelItem => item.HoTen)</td>
-                <td>@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
-                <td>@Html.DisplayFor(modelItem => item.DiaChi)</td>
-                <td>@Html.DisplayFor(modelItem => item.Email)</td>
-                <td>@Html.DisplayFor(modelItem => item.MaNganh)</td>
-                <td>@Html.DisplayFor(modelItem => item.VaiTro)</td>
-                <td>
-                    <a asp-action="Edit" asp-route-MSSV="@item.MSSV" class="btn btn-primary">Chỉnh sửa</a>
-                    <a asp-action="Details" asp-route-MSSV="@item.MSSV" class="btn btn-info">Chi tiết</a>
-                    <a asp-action="Delete" asp-route-MSSV="@item.MSSV" class="btn btn-danger">Xóa</a>
-                </td>
+                <th style="text-align: center; background-color: bisque;">MSSV</th>
+                <th style="text-align: center; background-color: bisque;">Họ tên</th>
+                <th style="text-align: center; background-color: bisque;">Số điện thoại</th>
+                <th style="text-align: center; background-color: bisque;">Địa chỉ</th>
+                <th style="text-align: center; background-color: bisque;">Email</th>
+                <th style="text-align: center; background-color: bisque;">Mã ngành</th>
+                <th style="text-align: center; background-color: bisque;">Vai trò</th>
+                <th style="text-align: center; background-color: bisque;">Thao tác</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @if (Model.Any())
+            {
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td style="padding-left: 10px;">@Html.DisplayFor(modelItem => item.MSSV)</td>
+                        <td style="padding-left: 10px;">@Html.DisplayFor(modelItem => item.HoTen)</td>
+                        <td style="padding-left: 10px;">@Html.DisplayFor(modelItem => item.SoDienThoai)</td>
+                        <td style="padding-left: 10px;">@Html.DisplayFor(modelItem => item.DiaChi)</td>
+                        <td style="padding-left: 10px;">@Html.DisplayFor(modelItem => item.Email)</td>
+                        <td style="text-align: center;">@Html.DisplayFor(modelItem => item.MaNganh)</td>
+                        <td style="text-align: center;">@Html.DisplayFor(modelItem => item.VaiTro)</td>
+                        <td style="text-align: center;">
+                            <a asp-controller="CapNhatTT" asp-action="Index" class="btn btn-primary btn-sm">Xem điểm</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="8" class="text-center">Không tìm thấy sinh viên nào.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    </form>
+</div>

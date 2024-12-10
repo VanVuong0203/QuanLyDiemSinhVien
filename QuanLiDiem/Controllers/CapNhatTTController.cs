@@ -101,10 +101,9 @@ namespace QuanLiDiem.Controllers
             return View(thongTinSV);
         }
 
-        // POST: DanhSachSinhVien/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string mssv, [Bind("HoTen,GioiTinh,CanCuocCongDan,SoDienThoai,Email,DiaChi")] DanhSachSinhVien thongTinSV)
+        public async Task<IActionResult> Edit(string mssv, [Bind("MSSV,HoTen,GioiTinh,CanCuocCongDan,SoDienThoai,Email,DiaChi,MaNganh,TenTaiKhoan,MatKhau,VaiTro")] DanhSachSinhVien thongTinSV)
         {
             if (mssv != thongTinSV.MSSV)
             {
@@ -113,7 +112,6 @@ namespace QuanLiDiem.Controllers
 
             if (ModelState.IsValid)
             {
-               
                 try
                 {
                     _context.Update(thongTinSV);
@@ -134,6 +132,7 @@ namespace QuanLiDiem.Controllers
             }
             return View(thongTinSV);
         }
+
 
         // GET: DanhSachSinhVien/Delete/5
         public async Task<IActionResult> Delete(string? mssv)
