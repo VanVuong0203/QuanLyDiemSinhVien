@@ -26,28 +26,22 @@ namespace QuanLiDiem.Migrations
                     b.Property<string>("MSSV")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CanCuocCongDan")
+                    b.Property<string>("CCCD")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DiaChi")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Email")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GioiTinh")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("HoTen")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MaNganh")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MatKhau")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SoDienThoai")
+                    b.Property<string>("NganhHoc")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SDT")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TenTaiKhoan")
@@ -69,36 +63,36 @@ namespace QuanLiDiem.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<string>("Address")
+                    b.Property<string>("CCCD")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CitizenId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Classification")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("FullName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<decimal>("GPA1")
+                    b.Property<decimal>("DTB1")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("GPA2")
+                    b.Property<decimal>("DTB2")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<decimal>("GPA3")
+                    b.Property<decimal>("DTB3")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<string>("Major")
+                    b.Property<string>("DiaChi")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("PhoneNumber")
+                    b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NganhHoc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SDT")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("XepLoai")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

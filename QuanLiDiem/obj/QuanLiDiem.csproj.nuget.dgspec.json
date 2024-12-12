@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BKO\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
+    "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BKO\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {
+    "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BKO\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
+        "projectUniqueName": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
         "projectName": "QuanLiDiem",
-        "projectPath": "C:\\Users\\BKO\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
+        "projectPath": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
         "packagesPath": "C:\\Users\\BKO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BKO\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
+        "outputPath": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Tools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
             }
           },
           "imports": [

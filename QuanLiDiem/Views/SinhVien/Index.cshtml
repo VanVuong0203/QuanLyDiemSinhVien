@@ -24,15 +24,15 @@
             {
                 <tr data-id="@sinhvien.Id">
                     <td>@sinhvien.Id</td>
-                    <td>@sinhvien.FullName</td>
-                    <td>@sinhvien.CitizenId</td>
-                    <td>@sinhvien.PhoneNumber</td>
-                    <td>@sinhvien.Address</td>
-                    <td>@sinhvien.Major</td>
-                    <td>@sinhvien.GPA1</td>
-                    <td>@sinhvien.GPA2</td>
-                    <td>@sinhvien.GPA3</td>
-                    <td>@sinhvien.Classification</td>
+                    <td>@sinhvien.HoTen</td>
+                    <td>@sinhvien.CCCD</td>
+                    <td>@sinhvien.SDT</td>
+                    <td>@sinhvien.DiaChi</td>
+                    <td>@sinhvien.NganhHoc</td>
+                    <td>@sinhvien.DTB1</td>
+                    <td>@sinhvien.DTB2</td>
+                    <td>@sinhvien.DTB3</td>
+                    <td>@sinhvien.XepLoai</td>
                     <td>
                         <button class="btn btn-success btn-sm approve-btn" data-id="@sinhvien.Id">Duyệt</button>
                         <button class="btn btn-danger btn-sm reject-btn" data-id="@sinhvien.Id">Hủy</button>
@@ -55,7 +55,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="confirmApprove">Đồng ý</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>               
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Huỷ</button>
             </div>
         </div>
     </div>
@@ -85,33 +85,35 @@
 <script>
     $(document).ready(function() {
         $('.approve-btn').click(function() {
-            var sinhvienId = $(this).data('id');
-            $('#confirmApprove').data('id', sinhvienId);
-            $('#approveModal').modal('show');
-        });
+        var sinhvienId = $(this).data('id');
+        $('#confirmApprove').data('id', sinhvienId);
+        $('#approveModal').modal('show');
+    });
 
-        $('#confirmApprove').click(function() {
-            var sinhvienId = $(this).data('id');
-            // Lấy thông tin sinh viên từ hàng đã chọn
-            var row = $('button[data-id="' + sinhvienId + '"]').closest('tr');
+    $('#confirmApprove').click(function() {
+        var sinhvienId = $(this).data('id');
+        var row = $('button[data-id="' + sinhvienId + '"]').closest('tr');
 
-            // Gửi yêu cầu xoá sinh viên đến server
-            $.ajax({
-                url: '@Url.Action("Delete", "SinhVien")',
-                type: 'POST',
-                data: { id: sinhvienId },
-                success: function() {
-                    // Loại bỏ sinh viên đã chọn
-                    row.remove();
-                    // Ẩn modal sau khi xác nhận
-                    $('#approveModal').modal('hide');
-                },
-                error: function() {
-                    // Xử lý lỗi nếu có
-                    alert('Có lỗi xảy ra khi xóa sinh viên.');
+        // Gửi yêu cầu duyệt sinh viên đến server
+        $.ajax({
+            url: '@Url.Action("ApproveAndDetails", "SinhVien")', // Gọi action ApproveAndDetails
+            type: 'POST',
+            data: { id: sinhvienId },
+            success: function(response) {
+                if (response.mssv) {
+                    // Chuyển hướng sang View Details với MSSV mới
+                    window.location.href = '@Url.Action("Details", "SinhVien", new { mssv = "__mssv__" })'.replace('__mssv__', response.mssv);
                 }
-            });
+                // Xóa sinh viên khỏi bảng trong View Index
+                row.remove();
+                $('#approveModal').modal('hide');
+            },
+            error: function() {
+                alert('Có lỗi xảy ra khi duyệt sinh viên.');
+            }
         });
+    });
+
 
         $('.reject-btn').click(function() {
             var sinhvienId = $(this).data('id');
