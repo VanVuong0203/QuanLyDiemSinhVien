@@ -5,7 +5,7 @@
 namespace QuanLiDiem.Migrations
 {
     /// <inheritdoc />
-    public partial class Createtable : Migration
+    public partial class creatable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\BKO\\Desktop\\Backup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\bko\\desktop\\backup\\quanlidiem\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\bko\\desktop\\backup\\quanlidiem\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\views\\sinhvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\bko\\desktop\\backup\\quanlidiem\\models\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\models\\danhsachsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\bko\\desktop\\backup\\quanlidiem\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\controllers\\sinhviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\Migrations\\20241213131856_createtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,7 +66,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\Views\\SinhVien\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\SinhVien\\Index.cshtml",
@@ -115,20 +115,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "SinhVienController.cs",
               "DocumentMoniker": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\Controllers\\SinhVienController.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Controllers\\SinhVienController.cs",
               "ToolTip": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\Controllers\\SinhVienController.cs",
               "RelativeToolTip": "QuanLiDiem\\Controllers\\SinhVienController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAswF0AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAnwF0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T12:46:39.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T12:46:39.278Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "DanhSachSinhVien.cs",
               "DocumentMoniker": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\Models\\DanhSachSinhVien.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\DanhSachSinhVien.cs",
