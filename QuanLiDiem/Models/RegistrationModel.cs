@@ -6,36 +6,46 @@ namespace QuanLiDiem.Models
     {
         public int Id { get; set; } // Mã định danh tự động tăng
 
+        [Display(Name = "Họ và tên")]
         [Required(ErrorMessage = "Họ tên là bắt buộc.")]
-        public string? FullName { get; set; }
+        public string? HoTen { get; set; }
 
-        [Required(ErrorMessage = "CCCD là bắt buộc.")]
-        public string? CitizenId { get; set; }
+        [Display(Name = "CMND/CCCD")]
+        [Required(ErrorMessage = "CMND là bắt buộc.")]
+        [RegularExpression(@"^\d{12}$", ErrorMessage = "CMND phải có đúng 12 chữ số.")]
+        public string? CCCD { get; set; }
 
+        [Display(Name = "Số điện thoại")]
         [Required(ErrorMessage = "Số điện thoại là bắt buộc.")]
-        [Phone(ErrorMessage = "Số điện thoại không hợp lệ.")]
-        public string? PhoneNumber { get; set; }
+        [RegularExpression(@"^0\d{9}$", ErrorMessage = "Số điện thoại phải bắt đầu bằng 0 và có đúng 10 chữ số.")]
+        public string? SDT { get; set; }
 
+        [Display(Name = "Địa chỉ")]
         [Required(ErrorMessage = "Địa chỉ là bắt buộc.")]
-        public string? Address { get; set; }
+        public string? DiaChi { get; set; }
 
+        [Display(Name = "Ngành Học")]
         [Required(ErrorMessage = "Ngành học là bắt buộc.")]
-        public string? Major { get; set; }
+        public string? NganhHoc { get; set; }
 
+        [Display(Name = "Điểm TBM1")]
         [Required(ErrorMessage = "Điểm TBM 1 là bắt buộc.")]
         [Range(0, 10, ErrorMessage = "Điểm TBM 1 phải trong khoảng từ 0 đến 10.")]
-        public decimal? GPA1 { get; set; }
+        public decimal? DTB1 { get; set; }
 
+        [Display(Name = "Điểm TBM2")]
         [Required(ErrorMessage = "Điểm TBM 2 là bắt buộc.")]
         [Range(0, 10, ErrorMessage = "Điểm TBM 2 phải trong khoảng từ 0 đến 10.")]
-        public decimal? GPA2 { get; set; }
+        public decimal? DTB2 { get; set; }
 
+        [Display(Name = "Điểm TBM3")]
         [Required(ErrorMessage = "Điểm TBM 3 là bắt buộc.")]
         [Range(0, 10, ErrorMessage = "Điểm TBM 3 phải trong khoảng từ 0 đến 10.")]
-        public decimal? GPA3 { get; set; }
+        public decimal? DTB3 { get; set; }
 
+        [Display(Name = "Xếp loại")]
         [Required(ErrorMessage = "Xếp loại là bắt buộc.")]
-        public string? Classification { get; set; }
+        public string? XepLoai { get; set; }
     }
 
 

@@ -13,6 +13,7 @@ namespace QuanLiDiem.Data
         public DbSet<DanhSachSinhVien> DanhSachSinhVien { get; set; }
         public DbSet<RegistrationModel> DanhSachDK { get; set; }
 
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
