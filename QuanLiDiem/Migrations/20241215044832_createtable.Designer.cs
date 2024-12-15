@@ -11,7 +11,7 @@ using QuanLiDiem.Data;
 namespace QuanLiDiem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241213132102_createtable")]
+    [Migration("20241215044832_createtable")]
     partial class createtable
     {
         /// <inheritdoc />
