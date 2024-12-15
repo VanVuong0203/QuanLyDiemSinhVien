@@ -25,7 +25,10 @@ namespace QuanLiDiem.Models
         public string? SoDienThoai { get; set; }  // Số điện thoại
 
         [Display(Name = "Email")]
+<<<<<<< HEAD
         [Required(ErrorMessage = "CMND là bắt buộc.")]
+=======
+>>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
