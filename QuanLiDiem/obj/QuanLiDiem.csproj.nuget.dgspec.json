@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
   },
   "projects": {
@@ -20,22 +19,6 @@
         "configFilePaths": [
           "C:\\Users\\BKO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-    "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
-  },
-  "projects": {
-    "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
-        "projectName": "QuanLiDiem",
-        "projectPath": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
-        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -101,11 +84,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
->>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8
         }
       }
     }

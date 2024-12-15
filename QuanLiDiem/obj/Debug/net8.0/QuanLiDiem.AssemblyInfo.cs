@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QuanLiDiem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+940678c5230f2cf41155baa69fee880a00f9d088")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e465504df718d2111fd945a443f8a231e77ea61")]
->>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59f697190e27743848a77fe97cbb5be7d3090f06")]
 [assembly: System.Reflection.AssemblyProductAttribute("QuanLiDiem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QuanLiDiem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
