@@ -4740,11 +4740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cuoikiptpmcn\\Test\\QuanLiDiem\\QuanLiDiem.csproj",
+      "projectUniqueName": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
       "projectName": "QuanLiDiem",
-      "projectPath": "D:\\cuoikiptpmcn\\Test\\QuanLiDiem\\QuanLiDiem.csproj",
+      "projectPath": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
       "packagesPath": "C:\\Users\\NGUYEN\\.nuget\\packages\\",
-      "outputPath": "D:\\cuoikiptpmcn\\Test\\QuanLiDiem\\obj\\",
+      "outputPath": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\visual studio share\\NuGetPackages"
