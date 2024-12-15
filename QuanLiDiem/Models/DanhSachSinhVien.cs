@@ -25,11 +25,11 @@ namespace QuanLiDiem.Models
         public string? SoDienThoai { get; set; }  // Số điện thoại
 
         [Display(Name = "Email")]
-        [Required(ErrorMessage = "Email là bắt buộc.")]
+        [Required(ErrorMessage = "email567 là bắt buộc.")]
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
-        [Required(ErrorMessage = "address là bắt buộc.")]
+        [Required(ErrorMessage = "dia chi là bắt buộc.")]
         public string? DiaChi { get; set; }  // Địa chỉ
 
         [Display(Name = "Mã ngành")]
