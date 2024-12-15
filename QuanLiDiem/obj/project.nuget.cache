@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "42C4XFY48/Q=",
+  "dgSpecHash": "X2/e70hGntA=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj",
+  "projectFilePath": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BKO\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\BKO\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

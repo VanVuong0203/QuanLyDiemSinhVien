@@ -4740,11 +4740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj",
+      "projectUniqueName": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
       "projectName": "QuanLiDiem",
-      "projectPath": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj",
+      "projectPath": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
       "packagesPath": "C:\\Users\\BKO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\obj\\",
+      "outputPath": "C:\\Users\\BKO\\Documents\\GitHub\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Tools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
