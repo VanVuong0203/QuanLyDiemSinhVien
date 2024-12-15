@@ -27,15 +27,12 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CanCuocCongDan")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DiaChi")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GioiTinh")
@@ -51,7 +48,6 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SoDienThoai")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TenTaiKhoan")
