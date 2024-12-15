@@ -26,6 +26,7 @@ namespace QuanLiDiem.Models
 
         [Display(Name = "Email")]
         [Required(ErrorMessage = "email456 là bắt buộc.")]
+
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
