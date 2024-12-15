@@ -29,7 +29,7 @@ namespace QuanLiDiem.Models
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
-        [Required(ErrorMessage = "địa chỉ là bắt buộc.")]
+        [Required(ErrorMessage = "address là bắt buộc.")]
         public string? DiaChi { get; set; }  // Địa chỉ
 
         [Display(Name = "Mã ngành")]
