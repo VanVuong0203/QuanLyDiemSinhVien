@@ -80,10 +80,10 @@ namespace QuanLiDiem.Controllers
             {
                 MSSV = mssv,  // Gán MSSV ngẫu nhiên
                 HoTen = sinhVien.HoTen,
-                CanCuocCongDan = sinhVien.CCCD,
-                SoDienThoai = sinhVien.SDT,
+                CCCD = sinhVien.CCCD,
+                SDT = sinhVien.SDT,
                 DiaChi = sinhVien.DiaChi,
-                MaNganh = sinhVien.NganhHoc,
+                NganhHoc = sinhVien.NganhHoc,
                 VaiTro = "SinhVien",
                 TenTaiKhoan = $"SV_{Guid.NewGuid().ToString().Substring(0, 6)}", // Tạo tên tài khoản ngẫu nhiên
                 MatKhau = Guid.NewGuid().ToString().Substring(0, 8) // Tạo mật khẩu ngẫu nhiên
