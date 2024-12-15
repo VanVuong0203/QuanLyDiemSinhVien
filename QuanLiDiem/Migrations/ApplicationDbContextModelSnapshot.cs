@@ -26,32 +26,22 @@ namespace QuanLiDiem.Migrations
                     b.Property<string>("MSSV")
                         .HasColumnType("nvarchar(450)");
 
-                    b.Property<string>("CanCuocCongDan")
-                        .IsRequired()
+                    b.Property<string>("CCCD")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DiaChi")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("GioiTinh")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("HoTen")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("MaNganh")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("MatKhau")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("SoDienThoai")
-                        .IsRequired()
+                    b.Property<string>("NganhHoc")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SDT")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TenTaiKhoan")
