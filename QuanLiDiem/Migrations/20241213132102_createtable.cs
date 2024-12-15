@@ -5,11 +5,7 @@
 namespace QuanLiDiem.Migrations
 {
     /// <inheritdoc />
-<<<<<<<< HEAD:QuanLiDiem/Migrations/20241208052241_creatable.cs
-    public partial class creatable : Migration
-========
     public partial class createtable : Migration
->>>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8:QuanLiDiem/Migrations/20241215024859_createtable.cs
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -44,7 +40,7 @@ namespace QuanLiDiem.Migrations
                     GioiTinh = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CanCuocCongDan = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     DiaChi = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MaNganh = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TenTaiKhoan = table.Column<string>(type: "nvarchar(max)", nullable: true),

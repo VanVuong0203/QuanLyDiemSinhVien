@@ -11,13 +11,8 @@ using QuanLiDiem.Data;
 namespace QuanLiDiem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-<<<<<<<< HEAD:QuanLiDiem/Migrations/20241208052241_creatable.Designer.cs
-    [Migration("20241208052241_creatable")]
-    partial class creatable
-========
-    [Migration("20241215024859_createtable")]
+    [Migration("20241213132102_createtable")]
     partial class createtable
->>>>>>>> 71f0c2f1a1ea7a4f17f2db88f547aa0c88a7c8c8:QuanLiDiem/Migrations/20241215024859_createtable.Designer.cs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +38,6 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GioiTinh")
