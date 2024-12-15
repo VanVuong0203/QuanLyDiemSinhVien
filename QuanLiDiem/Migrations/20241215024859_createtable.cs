@@ -5,7 +5,7 @@
 namespace QuanLiDiem.Migrations
 {
     /// <inheritdoc />
-    public partial class Createtable : Migration
+    public partial class createtable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -38,10 +38,10 @@ namespace QuanLiDiem.Migrations
                     MSSV = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     HoTen = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     GioiTinh = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CanCuocCongDan = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    DiaChi = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    CanCuocCongDan = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SoDienThoai = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DiaChi = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     MaNganh = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     TenTaiKhoan = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     MatKhau = table.Column<string>(type: "nvarchar(max)", nullable: true),
