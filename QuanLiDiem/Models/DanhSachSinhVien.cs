@@ -24,12 +24,8 @@ namespace QuanLiDiem.Models
         [RegularExpression(@"^0\d{9}$", ErrorMessage = "Số điện thoại phải bắt đầu bằng 0 và có đúng 10 chữ số.")]
         public string? SoDienThoai { get; set; }  // Số điện thoại
 
-<<<<<<< HEAD
         [Display(Name = "Email")]
         [Required(ErrorMessage = "Email là bắt buộc.")]
-=======
-        [Display(Name = "Email")]     
->>>>>>> 475ef733b5adf8361dc3af0686c01013b90b65b3
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]

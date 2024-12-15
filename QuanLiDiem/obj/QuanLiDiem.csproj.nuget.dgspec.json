@@ -1,44 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
+    "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {}
   },
   "projects": {
-    "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {
+    "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
+        "projectUniqueName": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
         "projectName": "QuanLiDiem",
-        "projectPath": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
-        "packagesPath": "C:\\Users\\MINH QUANG\\.nuget\\packages\\",
-        "outputPath": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
+        "projectPath": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\QuanLiDiem.csproj",
+        "packagesPath": "C:\\Users\\huynh\\.nuget\\packages\\",
+        "outputPath": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MINH QUANG\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj",
-        "projectName": "QuanLiDiem",
-        "projectPath": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\QuanLiDiem.csproj",
-        "packagesPath": "C:\\Users\\BKO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BKO\\Desktop\\Backup\\QuanLiDiem\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Tools\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\BKO\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 475ef733b5adf8361dc3af0686c01013b90b65b3
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\huynh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -46,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,9 +39,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -104,11 +80,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
->>>>>>> 475ef733b5adf8361dc3af0686c01013b90b65b3
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

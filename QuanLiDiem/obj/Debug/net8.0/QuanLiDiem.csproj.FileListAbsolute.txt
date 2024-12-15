@@ -685,3 +685,15 @@ C:\Users\BKO\Desktop\Backup\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.pdb
 C:\Users\BKO\Desktop\Backup\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.genruntimeconfig.cache
 C:\Users\BKO\Desktop\Backup\QuanLiDiem\obj\Debug\net8.0\ref\QuanLiDiem.dll
 >>>>>>> 475ef733b5adf8361dc3af0686c01013b90b65b3
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.csproj.AssemblyReference.cache
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.AssemblyInfoInputs.cache
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.AssemblyInfo.cs
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.csproj.CoreCompileInputs.cache
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.MvcApplicationPartsAssemblyInfo.cache
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.RazorAssemblyInfo.cache
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.RazorAssemblyInfo.cs
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.sourcelink.json
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.dll
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\refint\QuanLiDiem.dll
+D:\DotNet\QuanLyDiemSinhVien\QuanLiDiem\obj\Debug\net8.0\QuanLiDiem.pdb
