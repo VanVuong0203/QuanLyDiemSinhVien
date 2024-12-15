@@ -44,9 +44,4 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-app.MapControllerRoute(
-    name: "details",
-    pattern: "SinhVien/Details/{mssv}", // Route cho Details với MSSV
-    defaults: new { controller = "SinhVien", action = "Details" });
-
 app.Run();
