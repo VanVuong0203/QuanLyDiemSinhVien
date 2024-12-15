@@ -24,11 +24,12 @@ namespace QuanLiDiem.Models
         [RegularExpression(@"^0\d{9}$", ErrorMessage = "Số điện thoại phải bắt đầu bằng 0 và có đúng 10 chữ số.")]
         public string? SoDienThoai { get; set; }  // Số điện thoại
 
-        [Display(Name = "Email")]     
+        [Display(Name = "Email")]
+        [Required(ErrorMessage = "Email123 là bắt buộc.")]
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
-        [Required(ErrorMessage = "Địa chỉ là bắt buộc.")]
+        [Required(ErrorMessage = "dia chi là bắt buộc.")]
         public string? DiaChi { get; set; }  // Địa chỉ
 
         [Display(Name = "Mã ngành")]
