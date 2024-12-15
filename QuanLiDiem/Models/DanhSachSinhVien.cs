@@ -25,7 +25,7 @@ namespace QuanLiDiem.Models
         public string? SoDienThoai { get; set; }  // Số điện thoại
 
         [Display(Name = "Email")]
-        [Required(ErrorMessage = "CCCD là bắt buộc.")]
+        [Required(ErrorMessage = "Email là bắt buộc.")]
         public string? Email { get; set; }  // Email
 
         [Display(Name = "Địa chỉ")]
