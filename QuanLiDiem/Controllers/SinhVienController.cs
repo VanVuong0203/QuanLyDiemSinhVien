@@ -19,7 +19,6 @@ namespace QuanLiDiem.Controllers
             return View(sinhviens);
         }
 
-
         // GET: SinhVien/Create
         public IActionResult Create()
         {
@@ -67,9 +66,9 @@ namespace QuanLiDiem.Controllers
                 return NotFound(); // Nếu không tìm thấy sinh viên, trả về lỗi 404
             }
 
-            // Tạo MSSV ngẫu nhiên với 7 ký tự số (không có "SV")
+            // Tạo MSSV với định dạng "4451050???"
             Random rand = new Random();
-            string mssv = rand.Next(1000000, 9999999).ToString();  // Tạo MSSV ngẫu nhiên chỉ gồm 7 số
+            string mssv = $"4451050{rand.Next(100, 1000):D3}";  // Tạo MSSV với 3 số ngẫu nhiên cuối
 
             // Xóa sinh viên khỏi danh sách đăng ký
             _context.DanhSachDK.Remove(sinhVien);
@@ -78,14 +77,14 @@ namespace QuanLiDiem.Controllers
             // Tạo đối tượng sinh viên mới để hiển thị trong View Details
             var danhSachSinhVien = new DanhSachSinhVien
             {
-                MSSV = mssv,  // Gán MSSV ngẫu nhiên
+                MSSV = mssv,  // Gán MSSV vừa tạo
                 HoTen = sinhVien.HoTen,
                 CanCuocCongDan = sinhVien.CCCD,
                 SoDienThoai = sinhVien.SDT,
                 DiaChi = sinhVien.DiaChi,
                 MaNganh = sinhVien.NganhHoc,
                 VaiTro = "SinhVien",
-                TenTaiKhoan = $"SV_{Guid.NewGuid().ToString().Substring(0, 6)}", // Tạo tên tài khoản ngẫu nhiên
+                TenTaiKhoan = mssv, // Gán tên tài khoản là MSSV
                 MatKhau = Guid.NewGuid().ToString().Substring(0, 8) // Tạo mật khẩu ngẫu nhiên
             };
 
