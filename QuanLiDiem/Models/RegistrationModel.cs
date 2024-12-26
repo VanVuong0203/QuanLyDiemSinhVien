@@ -28,6 +28,7 @@ namespace QuanLiDiem.Models
         [Required(ErrorMessage = "Ngành học là bắt buộc.")]
         public string? NganhHoc { get; set; }
 
+
         [Display(Name = "Điểm TBM1")]
         [Required(ErrorMessage = "Điểm TBM 1 là bắt buộc.")]
         [Range(0, 10, ErrorMessage = "Điểm TBM 1 phải trong khoảng từ 0 đến 10.")]

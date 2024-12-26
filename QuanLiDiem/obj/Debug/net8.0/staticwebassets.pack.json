@@ -21,6 +21,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\background.jpg",
+      "PackagePath": "staticwebassets\\images\\background.jpg"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\iconchucnang.png",
+      "PackagePath": "staticwebassets\\images\\iconchucnang.png"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\icondangky.png",
+      "PackagePath": "staticwebassets\\images\\icondangky.png"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\icondangnhap.png",
+      "PackagePath": "staticwebassets\\images\\icondangnhap.png"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\iconhome.webp",
+      "PackagePath": "staticwebassets\\images\\iconhome.webp"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\slide1.jpg",
+      "PackagePath": "staticwebassets\\images\\slide1.jpg"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\slide2.jpg",
+      "PackagePath": "staticwebassets\\images\\slide2.jpg"
+    },
+    {
+      "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\images\\slide3.jpg",
+      "PackagePath": "staticwebassets\\images\\slide3.jpg"
+    },
+    {
       "Id": "D:\\DotNet\\QuanLyDiemSinhVien\\QuanLiDiem\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

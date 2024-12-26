@@ -60,7 +60,8 @@ public class HomeController : Controller
             }
             else
             {
-                ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng.");
+                // Thêm thông báo lỗi vào ViewData để hiển thị trong modal
+                ViewData["ErrorMessage"] = "Tên đăng nhập hoặc mật khẩu không đúng.";
             }
         }
         return View(login);

@@ -1,4 +1,4 @@
-html {
+﻿html {
   font-size: 14px;
 }
 
@@ -20,3 +20,13 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/* Thiết lập ảnh nền cho toàn bộ trang */
+body {
+    background-image: url('/images/background.jpg'); /* Lưu ý dấu / ở đầu đường dẫn */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
