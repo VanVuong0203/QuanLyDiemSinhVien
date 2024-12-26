@@ -4,7 +4,7 @@ using QuanLiDiem.Models;
 using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<QuanLiDiemContext>(options =>
+builder.Services.AddDbContext<DbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("QuanLiDiemContext") ?? throw new InvalidOperationException("Connection string 'QuanLiDiemContext' not found.")));
 
 // Cấu hình DbContext và kết nối với cơ sở dữ liệu
