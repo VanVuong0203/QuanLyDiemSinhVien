@@ -42,22 +42,22 @@ namespace QuanLiDiem.Controllers
         }
 
         // GET: CapNhatTT/Details/{MSSV}
-        public async Task<IActionResult> Details(string? id)
+        public async Task<IActionResult> Details(string MSSV)
         {
-            if (id == null)
+            if (string.IsNullOrEmpty(MSSV))
             {
                 return NotFound();
             }
 
-            // Tìm sinh viên trong cơ sở dữ liệu theo MSSV
-            var sinhVien = await _context.DanhSachSinhVien
-                .FirstOrDefaultAsync(m => m.MSSV == id); // Sử dụng MSSV để tìm sinh viên
-            if (sinhVien == null)
+            var thongTinSV = await _context.DanhSachSinhVien
+                .FirstOrDefaultAsync(m => m.MSSV == MSSV);
+
+            if (thongTinSV == null)
             {
                 return NotFound();
             }
 
-            return View(sinhVien); // Trả về view với thông tin sinh viên
+            return View(thongTinSV);
         }
 
 
