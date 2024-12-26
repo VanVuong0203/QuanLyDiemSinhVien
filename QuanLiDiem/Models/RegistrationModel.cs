@@ -10,7 +10,8 @@ namespace QuanLiDiem.Models
         [Required(ErrorMessage = "Họ tên là bắt buộc.")]
         public string? HoTen { get; set; }
 
-        [Required(ErrorMessage = "CMND là bắt buộc.")]
+        [Display(Name = "CMND/CCCD")]
+        [Required(ErrorMessage = "CCCD")]
         [RegularExpression(@"^\d{12}$", ErrorMessage = "CMND phải có đúng 12 chữ số.")]
         public string? CCCD { get; set; }
 
