@@ -1,10 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuanLiDiem.Data;
-<<<<<<< HEAD
-=======
 using QuanLiDiem.Models;
 using Microsoft.Extensions.DependencyInjection;
->>>>>>> 0865c0f5d1cb2bbd6e234fda58fca1d27d75abe4
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<DbContext>(options =>
