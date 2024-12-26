@@ -27,6 +27,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-controller="SinhVien" asp-action="Index">Danh sách Đăng Ký</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white " asp-area="" asp-controller="Diems" asp-action="Index">Danh sách Điểm</a>    
+                        </li>
                         <li class="nav-item dropdown">
                             @if (Context.Session.GetString("Username") != null)
                             {
@@ -56,9 +59,6 @@
                                     </li>
                                 </ul>
                             }
-                        </li>
-                        <li class="nav-item">
-                            <b><a class="nav-link text-white " asp-area="" asp-controller="Diems" asp-action="Index">Danh sách Điểm</a></b>
                         </li>
                     </ul>
                 </div>

@@ -5,7 +5,7 @@
 namespace QuanLiDiem.Migrations
 {
     /// <inheritdoc />
-    public partial class createtable : Migration
+    public partial class CreateTable1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -51,6 +51,32 @@ namespace QuanLiDiem.Migrations
                 {
                     table.PrimaryKey("PK_DanhSachSinhVien", x => x.MSSV);
                 });
+
+            migrationBuilder.CreateTable(
+                name: "Diem",
+                columns: table => new
+                {
+                    MSSV = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    MaHP = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    SoTinChi = table.Column<int>(type: "int", nullable: false),
+                    DiemQuaTrinh = table.Column<double>(type: "float", nullable: false),
+                    DiemCuoiKy = table.Column<double>(type: "float", nullable: false),
+                    Diem10 = table.Column<double>(type: "float", nullable: false),
+                    Diem4 = table.Column<double>(type: "float", nullable: false),
+                    KetQua = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    HocKy = table.Column<int>(type: "int", nullable: false),
+                    NamHoc = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Diem", x => x.MSSV);
+                    table.ForeignKey(
+                        name: "FK_Diem_DanhSachSinhVien_MSSV",
+                        column: x => x.MSSV,
+                        principalTable: "DanhSachSinhVien",
+                        principalColumn: "MSSV",
+                        onDelete: ReferentialAction.Cascade);
+                });
         }
 
         /// <inheritdoc />
@@ -58,6 +84,9 @@ namespace QuanLiDiem.Migrations
         {
             migrationBuilder.DropTable(
                 name: "DanhSachDK");
+
+            migrationBuilder.DropTable(
+                name: "Diem");
 
             migrationBuilder.DropTable(
                 name: "DanhSachSinhVien");

@@ -21,6 +21,46 @@ namespace QuanLiDiem.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("Diem", b =>
+                {
+                    b.Property<string>("MSSV")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<double>("Diem10")
+                        .HasColumnType("float");
+
+                    b.Property<double>("Diem4")
+                        .HasColumnType("float");
+
+                    b.Property<double>("DiemCuoiKy")
+                        .HasColumnType("float");
+
+                    b.Property<double>("DiemQuaTrinh")
+                        .HasColumnType("float");
+
+                    b.Property<int>("HocKy")
+                        .HasColumnType("int");
+
+                    b.Property<string>("KetQua")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MaHP")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NamHoc")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SoTinChi")
+                        .HasColumnType("int");
+
+                    b.HasKey("MSSV");
+
+                    b.ToTable("Diem");
+                });
+
             modelBuilder.Entity("QuanLiDiem.Models.DanhSachSinhVien", b =>
                 {
                     b.Property<string>("MSSV")
@@ -108,6 +148,22 @@ namespace QuanLiDiem.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("DanhSachDK");
+                });
+
+            modelBuilder.Entity("Diem", b =>
+                {
+                    b.HasOne("QuanLiDiem.Models.DanhSachSinhVien", "SinhVien")
+                        .WithMany("Diem")
+                        .HasForeignKey("MSSV")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SinhVien");
+                });
+
+            modelBuilder.Entity("QuanLiDiem.Models.DanhSachSinhVien", b =>
+                {
+                    b.Navigation("Diem");
                 });
 #pragma warning restore 612, 618
         }
