@@ -21,7 +21,7 @@ namespace QuanLiDiem.Models
         public string? SDT { get; set; }
 
         [Display(Name = "Địa chỉ")]
-        [Required(ErrorMessage = "Địa chỉ là bắt buộc.")]
+        [Required(ErrorMessage = "addres là bắt buộc.")]
         public string? DiaChi { get; set; }
 
         [Display(Name = "Ngành Học")]
