@@ -9,7 +9,7 @@ namespace QuanLiDiem.Models
         [Required(ErrorMessage = "Họ tên là bắt buộc.")]
         public string? HoTen { get; set; }
 
-        [Required(ErrorMessage = "CCCD là bắt buộc.")]
+        [Required(ErrorMessage = "CMND")]
         public string? CCCD { get; set; }
 
         [Required(ErrorMessage = "Số điện thoại là bắt buộc.")]
