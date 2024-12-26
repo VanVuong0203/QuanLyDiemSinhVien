@@ -11,10 +11,6 @@
       "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\pc\\source\\repos\\quanlydiemsinhvien\\quanlidiem\\migrations\\20241208052241_creatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\migrations\\20241208052241_creatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\pc\\source\\repos\\quanlydiemsinhvien\\quanlidiem\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,6 +71,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|c:\\users\\pc\\source\\repos\\quanlydiemsinhvien\\quanlidiem\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE1FD608-8D67-437B-BB86-F3402C47B379}|QuanLiDiem\\QuanLiDiem.csproj|solutionrelative:quanlidiem\\models\\changepasswordviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Migrations\\20241208052241_creatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:QuanLiDiem\\Migrations\\20241208052241_creatable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -112,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 18,
               "Title": "20241208052241_creatable.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Migrations\\20241208052241_creatable.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Migrations\\20241208052241_creatable.cs",
@@ -120,11 +120,11 @@
               "RelativeToolTip": "QuanLiDiem\\Migrations\\20241208052241_creatable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T05:22:41.982Z"
+              "WhenOpened": "2024-12-26T02:53:34.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Login.cshtml",
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Register.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Register.cshtml",
@@ -148,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DbContext.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Data\\DbContext.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Data\\DbContext.cs",
@@ -160,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "SinhVienController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Controllers\\SinhVienController.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Controllers\\SinhVienController.cs",
@@ -190,14 +190,14 @@
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\RegistrationModel.cs",
               "ToolTip": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Models\\RegistrationModel.cs",
               "RelativeToolTip": "QuanLiDiem\\Models\\RegistrationModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T02:20:12.692Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Index.cshtml",
@@ -209,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Privacy.cshtml",
@@ -221,7 +221,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\SinhVien\\Index.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\SinhVien\\Index.cshtml",
@@ -233,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "DanhSachSinhVien.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Models\\DanhSachSinhVien.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\DanhSachSinhVien.cs",
@@ -245,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Controllers\\HomeController.cs",
@@ -257,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "20241208050546_creatable.cs",
               "DocumentMoniker": "D:\\DotNet\\QuanLiDiem\\QuanLiDiem\\Migrations\\20241208050546_creatable.cs",
               "ToolTip": "D:\\DotNet\\QuanLiDiem\\QuanLiDiem\\Migrations\\20241208050546_creatable.cs",
@@ -267,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "20241208050354_creatable.cs",
               "DocumentMoniker": "D:\\DotNet\\QuanLiDiem\\QuanLiDiem\\Migrations\\20241208050354_creatable.cs",
               "ToolTip": "D:\\DotNet\\QuanLiDiem\\QuanLiDiem\\Migrations\\20241208050354_creatable.cs",
@@ -277,7 +277,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Program.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Program.cs",
@@ -289,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\ChangePassword.cshtml",
@@ -301,7 +301,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Models\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\LoginViewModel.cs",
@@ -313,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Shared\\_Layout.cshtml",
@@ -325,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ChangePasswordViewModel.cs",
               "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\QuanLyDiemSinhVien\\QuanLiDiem\\Models\\ChangePasswordViewModel.cs",
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\ChangePasswordViewModel.cs",

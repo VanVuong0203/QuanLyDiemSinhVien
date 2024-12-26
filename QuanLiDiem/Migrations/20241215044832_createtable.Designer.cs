@@ -11,8 +11,8 @@ using QuanLiDiem.Data;
 namespace QuanLiDiem.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241208052241_creatable")]
-    partial class creatable
+    [Migration("20241215044832_createtable")]
+    partial class createtable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -30,9 +30,11 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("CanCuocCongDan")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("DiaChi")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
@@ -51,6 +53,7 @@ namespace QuanLiDiem.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SoDienThoai")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TenTaiKhoan")
