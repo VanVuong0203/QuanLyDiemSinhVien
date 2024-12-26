@@ -1,6 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QuanLiDiem.Data;
-using QuanLiDiem.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,12 +10,12 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 // Thêm dịch vụ MVC
 builder.Services.AddControllersWithViews();
 
-// Thêm dịch vụ Session
+// Cấu hình dịch vụ Session
 builder.Services.AddSession(options =>
 {
-    options.IdleTimeout = TimeSpan.FromMinutes(30);  // Thời gian hết hạn session
-    options.Cookie.HttpOnly = true;
-    options.Cookie.IsEssential = true;
+    options.IdleTimeout = TimeSpan.FromMinutes(30); // Thời gian hết hạn session
+    options.Cookie.HttpOnly = true; // Đảm bảo session chỉ được truy cập từ phía server
+    options.Cookie.IsEssential = true; // Đảm bảo session được sử dụng ngay cả khi cookie không được người dùng chấp thuận
 });
 
 var app = builder.Build();
@@ -39,6 +38,8 @@ app.UseRouting();
 
 // Kích hoạt Session
 app.UseSession();
+
+app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",

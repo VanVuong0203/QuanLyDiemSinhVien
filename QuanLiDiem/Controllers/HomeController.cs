@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
 using QuanLiDiem.Models;
 using QuanLiDiem.Data;
-using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -27,14 +27,13 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
+            // Bỏ qua kiểm tra tên tài khoản đã tồn tại, thêm trực tiếp người dùng vào cơ sở dữ liệu
             _context.Add(registration);
             await _context.SaveChangesAsync();
 
             TempData["SuccessMessage"] = "Đăng ký thành công, vui lòng đăng nhập.";
-
             return RedirectToAction("Login");
         }
-
         return View(registration);
     }
 
@@ -51,26 +50,23 @@ public class HomeController : Controller
     {
         if (ModelState.IsValid)
         {
-            // Kiểm tra thông tin đăng nhập với bảng DanhSachSinhVien
             var user = _context.DanhSachSinhVien
                 .FirstOrDefault(u => u.TenTaiKhoan == login.TenTaiKhoan && u.MatKhau == login.MatKhau);
 
             if (user != null)
             {
-                // Đăng nhập thành công
-                return RedirectToAction("Index"); // Chuyển hướng đến trang Index
+                HttpContext.Session.SetString("Username", user.TenTaiKhoan);
+                return RedirectToAction("Index");
             }
             else
             {
-                // Thêm lỗi vào ModelState nếu đăng nhập không thành công
                 ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu không đúng.");
             }
         }
-
         return View(login);
     }
 
-    // Action để hiển thị trang Index
+    // Action GET để hiển thị trang Index
     public IActionResult Index()
     {
         return View();
@@ -96,13 +92,11 @@ public class HomeController : Controller
             {
                 if (model.MatKhauMoi == model.XacNhanMatKhau)
                 {
-                    // Cập nhật mật khẩu trong cơ sở dữ liệu
                     user.MatKhau = model.MatKhauMoi;
                     _context.Update(user);
                     await _context.SaveChangesAsync();
 
                     TempData["SuccessMessage"] = "Mật khẩu đã được thay đổi thành công.";
-
                     return RedirectToAction("Index");
                 }
                 else
@@ -115,7 +109,17 @@ public class HomeController : Controller
                 ModelState.AddModelError("", "Tên đăng nhập hoặc mật khẩu cũ không đúng.");
             }
         }
-
         return View(model);
+    }
+
+    // Action GET để xử lý đăng xuất
+    [HttpGet]
+    public IActionResult Logout()
+    {
+        // Xóa session Username
+        HttpContext.Session.Remove("Username");
+
+        // Chuyển hướng về trang Home sau khi đăng xuất
+        return RedirectToAction("Index", "Home");
     }
 }
