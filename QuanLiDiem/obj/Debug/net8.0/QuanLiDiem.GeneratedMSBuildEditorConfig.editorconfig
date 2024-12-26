@@ -34,6 +34,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwTmhhdFRUXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DotNet/QuanLyDiemSinhVien/QuanLiDiem/Views/Home/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
