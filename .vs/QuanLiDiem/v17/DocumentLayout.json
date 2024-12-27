@@ -111,8 +111,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -121,14 +125,10 @@
               "RelativeDocumentMoniker": "QuanLiDiem\\Views\\CapNhatTT\\Edit.cshtml",
               "ToolTip": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\CapNhatTT\\Edit.cshtml",
               "RelativeToolTip": "QuanLiDiem\\Views\\CapNhatTT\\Edit.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-12-27T09:01:56.832Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
@@ -138,7 +138,7 @@
               "RelativeDocumentMoniker": "QuanLiDiem\\Controllers\\CapNhatTTController.cs",
               "ToolTip": "D:\\DotNetCore\\QuanLyDiemSinhVien\\QuanLiDiem\\Controllers\\CapNhatTTController.cs",
               "RelativeToolTip": "QuanLiDiem\\Controllers\\CapNhatTTController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwDwAAAAJAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAIwK8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-26T15:29:04.949Z",
               "EditorCaption": ""
