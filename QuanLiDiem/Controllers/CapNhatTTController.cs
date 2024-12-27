@@ -41,7 +41,24 @@ namespace QuanLiDiem.Controllers
             return View(sinhViens.ToList());
         }
 
-       
+        // GET: CapNhatTT/Details/{MSSV}
+        public async Task<IActionResult> Details(string MSSV)
+        {
+            if (string.IsNullOrEmpty(MSSV))
+            {
+                return NotFound();
+            }
+
+            var thongTinSV = await _context.DanhSachSinhVien
+                .FirstOrDefaultAsync(m => m.MSSV == MSSV);
+
+            if (thongTinSV == null)
+            {
+                return NotFound();
+            }
+
+            return View(thongTinSV);
+        }
 
 
         // GET: DanhSachSinhVien/Create
