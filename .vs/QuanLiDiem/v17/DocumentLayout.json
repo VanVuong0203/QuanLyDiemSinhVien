@@ -58,20 +58,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Register.cshtml",
-              "ToolTip": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "QuanLiDiem\\Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T19:49:57.142Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 7,
@@ -92,10 +80,22 @@
               "RelativeDocumentMoniker": "QuanLiDiem\\Models\\DanhSachSinhVien.cs",
               "ToolTip": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\Models\\DanhSachSinhVien.cs",
               "RelativeToolTip": "QuanLiDiem\\Models\\DanhSachSinhVien.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA3wBsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T00:54:06.301Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "QuanLiDiem\\Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\cuoikiptpmcn\\QuanLyDiemSinhVien\\QuanLiDiem\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "QuanLiDiem\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-14T19:49:57.142Z"
             },
             {
               "$type": "Document",
