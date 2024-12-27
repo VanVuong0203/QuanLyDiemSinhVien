@@ -26,10 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\DotNetCore\QuanLyDiemSinhVien\QuanLiDiem
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DotNetCore/QuanLyDiemSinhVien/QuanLiDiem/Views/CapNhatTT/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwTmhhdFRUXERldGFpbHMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/DotNetCore/QuanLyDiemSinhVien/QuanLiDiem/Views/CapNhatTT/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwTmhhdFRUXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
