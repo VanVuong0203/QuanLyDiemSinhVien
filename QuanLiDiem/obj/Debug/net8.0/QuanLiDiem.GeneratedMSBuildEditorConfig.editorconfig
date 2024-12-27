@@ -36,6 +36,30 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwTmhhdFRUXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Diems/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/GV/CreateGV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR1ZcQ3JlYXRlR1YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Home/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,12 +80,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/LopHocPhan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jUGhhblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/LopHocPhan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jUGhhblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/LopHocPhan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9wSG9jUGhhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/SinhVien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2luaFZpZW5cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/cuoikiptpmcn/QuanLyDiemSinhVien/QuanLiDiem/Views/SinhVien/Index.cshtml]

@@ -11,7 +11,7 @@ namespace QuanLiDiem.Models
         public string? HoTen { get; set; }
 
         [Display(Name = "CMND/CCCD")]
-        [Required(ErrorMessage = "CMND là bắt buộc.")]
+        [Required(ErrorMessage = "CCCD")]
         [RegularExpression(@"^\d{12}$", ErrorMessage = "CMND phải có đúng 12 chữ số.")]
         public string? CCCD { get; set; }
 
@@ -21,7 +21,7 @@ namespace QuanLiDiem.Models
         public string? SDT { get; set; }
 
         [Display(Name = "Địa chỉ")]
-        [Required(ErrorMessage = "Địa chỉ là bắt buộc.")]
+        [Required(ErrorMessage = "Địa Chỉ là bắt buộc.")]
         public string? DiaChi { get; set; }
 
         [Display(Name = "Ngành Học")]
